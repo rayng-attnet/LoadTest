@@ -1,0 +1,118 @@
+Test Strategy:
+https://www.slideshare.net/qaoth/test-strategythe-real-silver-bullet-in-testing-by-matthew-eakin?qid=c04955e6-679a-4142-92bf-a77128d5562d&v=&b=&from_search=3
+https://www.slideshare.net/leebarnes7/quest-2013-test-automation-strategy?qid=2b49276a-ec6b-4b2f-b573-106e9cc2cc04&v=&b=&from_search=5
+https://www.slideshare.net/tharindakasun/agile-testing-strategy?qid=0653e6f2-f92d-4a74-a13e-88fa2a9d4e6d&v=&b=&from_search=9
+
+distributed test architecture
+- See images from Google Image
+
+Amazon Web Service:
+https://www.slideshare.net/AmazonWebServices
+
+Restful Tutorial:
+
+-	https://www.codecademy.com/articles/what-is-rest
+
+- CURL: https://curl.haxx.se/docs/httpscripting.html
+- Book: https://ec.haxx.se/
+
+
+
+
+SOlve the problem once in a general way and let code generation to solve each individual instance of the problem
+
+Mobile App testing: https://calaba.sh
+
+JSON:
+http://json-schema.org/
+
+Python/JSON:
+https://realpython.com/python-json/
+
+https://www.slideshare.net/GagandeepSingh182/introduction-to-webservices-53510964
+Web services slides
+
+SoapUI Training
+https://www.guru99.com/webservice-testing-beginner-guide.html
+
+
+What are Web Services?
+
+Web services are web components that transfer data between client and server. The client sends a web request to the server and the server then responds to the client. This response will differ based on the web service request type.
+
+Web services in SoapUI:
+SoapUI is designed for validating web services easily.
+
+ the important components of the web services. They are,
+
+WSDL – Web Service Description Language
+SOAP – Simple Object Access Protocol
+UDDI – Universal Description, Discovery and Integration
+RDF – Resource Description Framework
+
+#1. WSDL (Web Services Description Language):
+
+A WSDL is a document that should be written using XML. This document describes the following details about the web service:
+
+Origin of the web service
+Header information
+Port type
+Input and output messages
+Each of the above information is represented as a tag in the WSDL file, such as:
+
+<types> – XML Schema data types
+<message> – the actual request and response data being communicated
+<portType> – the target/end points where the actual web service is hosted to perform the operation
+<binding>– the protocol information is given for the data format
+<definitions>– the parent tag for the above-mentioned tags
+
+Web services are constructed on top of XML, HTTP, TCP / IP, Java, HTML and so on. Since web services are XML based language so that we can have these applications as local, distributed and web-based environments.
+
+Soap UI Requirements:
+Role of WSDL:
+
+Validating web services using SoapUI is easy and is only possible with WSDL document because to configure web services in SoapUI, WSDL document is mandatory. If the WSDL document is not valid, SoapUI will throw an exception immediately. 
+
+
+#2. UDDI (Universal Description, Discovery and Integration):
+
+This is a global repository where we can search the web services spread over the globe. In order to get or search web services just visit http://uddi.xml.org/ website. Here you can also register your own web service and make it available to global users.
+
+#3. SOAP (Simple Access Object Protocol):
+
+Generally, it uses XML based data to interact with web applications.
+
+Here are some points to remember:
+
+SOAP is language and platform independent as it is written by using XML.
+It creates the platform to communicate with the applications that are running in different operating systems using different technologies.
+
+a SOAP document must contain the following elements:
+
+Envelope element is the topmost tag which identifies the XML document as a SOAP message.
+Followed by Envelope element, you see the header element that has header information.
+The Body element specifies the call and response information.
+Finally, you have a Fault element which contains errors and status information.
+The above said elements should be declared with default namespace for the SOAP envelope.
+
+#4. RDF (Resource Description Framework):
+
+RDF contains the description of the web resources such as title, author, content, and copyright information. This framework was designed so that computers can be read and understood easily by the web.
+
+RDF is completely written by using XML language.
+
+What is XML?
+XML (eXtensible Markup Language) is a markup language that is used for storing, sharing and formatting data. In general, an XML document is built by the tags. 
+
+
+SoapUI/SoapUI Pro Features
+- GUI
+- Support test suites
+- Support test debugging
+- Support test suite cloning
+- Vulnerability testing: test generator, SQL injections, XML Bombig
+- Loading testing using LoadUI
+- Automation with Groovy
+- Data Driven Testing - perform bulk insert, delete and update related testing
+- Assertions
+
