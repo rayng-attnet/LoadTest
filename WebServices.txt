@@ -1,3 +1,5 @@
+Annabel is testing oh yeah she is so cool.
+
 Test Strategy:
 https://www.slideshare.net/qaoth/test-strategythe-real-silver-bullet-in-testing-by-matthew-eakin?qid=c04955e6-679a-4142-92bf-a77128d5562d&v=&b=&from_search=3
 https://www.slideshare.net/leebarnes7/quest-2013-test-automation-strategy?qid=2b49276a-ec6b-4b2f-b573-106e9cc2cc04&v=&b=&from_search=5
